@@ -1,0 +1,61 @@
+.main-div{
+    background: #232425;
+    width:500px;
+    height:80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.child-div{
+    /* border: 1px solid yellow; */
+    margin: auto;
+    margin-top: 20px;
+
+}
+h1{
+    color: white;
+}
+
+.addItems{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.addItems input{
+    width: 250px;
+    border: none;
+    color: black;
+    border-radius: 6px;
+}
+
+.addItems i{
+    display: inline-block;
+    color: aliceblue;
+    width: 20px;
+
+}
+
+
+.showItems{
+    /* border: 1px solid  tomato; */
+    margin-top: 10px;
+}
+
+
+.eachItem{
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    border: 1px solid green;
+}
+
+
+.ibutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    gap: 8px;
+}
